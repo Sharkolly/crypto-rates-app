@@ -10,7 +10,7 @@ const Crypto = ({ crypto, saveDataVal }) => {
 
     const [stat, setStat] = useState([])
 
-    const marketCap = saveDataVal.map((data) => data.market_cap)
+    const marketCap = crypto.map((data) => data.market_cap)
     // console.log(marketCap)
     const marketCapValue = marketCap.reduce((acc, sum) => sum + acc).toLocaleString()
     const Vol24 = crypto.map((data) => data.total_volume)
