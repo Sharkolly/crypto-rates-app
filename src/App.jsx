@@ -39,7 +39,7 @@ function App() {
     setWidthh(window.innerWidth)
     setInterval(() => {
       fetchData()
-    }, 30000);
+    }, 5000);
   },[url])
 
   const time = new Date();
