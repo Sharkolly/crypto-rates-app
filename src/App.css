@@ -1,0 +1,50 @@
+
+
+table{  
+  text-align: center;
+  /* border: 1px solid; */
+}
+
+th{
+  padding-inline: 1.3em;
+  opacity: .9;
+  font-size: .9rem;
+}
+img{
+  width: 20px;
+  height: 20px;
+  margin-inline: .5rem;
+}
+td.img{
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+td.green{
+  color: limegreen;
+}
+td.red{
+  color: red;
+  
+}
+td{
+  /* border: 2px solid; */
+  padding-inline: 1rem;
+  font-weight: bold;
+  opacity: .8;
+}
+
+div.crypto-desc{
+  display: flex;
+  justify-content: space-between;
+}
+
+span.desc{
+  color: rgba(0, 0, 255, 0.789);
+}
+span.red{
+  color: red;
+}
+span.green{
+  color: green;
+}
