@@ -13,12 +13,12 @@ const Crypto = ({ crypto, saveDataVal }) => {
     const marketCap = saveDataVal.map((data) => data.market_cap)
     // console.log(marketCap)
     const marketCapValue = marketCap.reduce((acc, sum) => sum + acc).toLocaleString()
-    const Vol24 = saveDataVal.map((data) => data.total_volume)
+    const Vol24 = crypto.map((data) => data.total_volume)
     const Vol24Value = Vol24.reduce((acc, sum) => sum + acc).toLocaleString()
-    const PMarketCap = saveDataVal.map((data) => data.market_cap_change_percentage_24h)
+    const PMarketCap = crypto.map((data) => data.market_cap_change_percentage_24h)
     const PMarketCapValue = PMarketCap.reduce((acc, sum) => sum + acc).toLocaleString()
 
-    const marketC = saveDataVal.map(data => data.market_cap);
+    const marketC = crypto.map(data => data.market_cap);
     // console.log(marketC);
     const redMark = marketC.reduce((acc, sum) => acc + sum).toLocaleString();
 
