@@ -36,10 +36,11 @@ function App() {
   }
 
   useEffect(() => {
-    setWidthh(window.innerWidth)
+    setWidthh(window.innerWidth);
+    fetchData();
     setInterval(() => {
-      fetchData()
-    }, 30000);
+      fetchData();
+    }, 5000);
   },[url])
 
   const time = new Date();
