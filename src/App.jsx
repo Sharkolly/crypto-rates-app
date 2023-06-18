@@ -39,11 +39,8 @@ function App() {
     setWidthh(window.innerWidth);
     fetchData();
     setInterval(() => {
-<<<<<<< HEAD
       fetchData();
-=======
       fetchData()
->>>>>>> 70fb2d2b9242ad6974559dd524d903b48319aeec
     }, 5000);
   },[url])
 
