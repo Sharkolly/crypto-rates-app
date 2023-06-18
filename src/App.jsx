@@ -41,7 +41,7 @@ function App() {
     setInterval(() => {
       fetchData();
       fetchData()
-    }, 5000);
+    }, 60000);
   },[url])
 
   const time = new Date();
