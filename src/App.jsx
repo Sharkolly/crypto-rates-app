@@ -40,9 +40,9 @@ function App() {
     fetchData();
     setInterval(() => {
       fetchData();
-      fetchData()
-    }, 60000);
-  },[url])
+      // fetchData()
+    }, 120000);
+  },[url, widthh])
 
   const time = new Date();
   const hours = time.getHours()
